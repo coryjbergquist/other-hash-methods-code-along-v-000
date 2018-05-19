@@ -13,3 +13,5 @@ value_list = []
 groceries.each do |name, value|
   value_list = value.values 
 end
+value_list
+end
