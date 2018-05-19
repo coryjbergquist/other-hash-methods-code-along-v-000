@@ -11,7 +11,7 @@ require 'pry'
 def get_the_values(groceries)
 value_list = []
 groceries.each do |name, value|
-  value_list = value.values 
+  value_list << value.values
 end
 value_list
 end
