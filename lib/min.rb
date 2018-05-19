@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  grocersies.min
+  grocersies.each do |name, value|
+    alpha = value.min
+
 end
